@@ -1,0 +1,174 @@
+﻿@page
+@model x_siemins_dropdown.Pages.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Siemins Lists Task</h1>
+
+<form method="post">
+    <div class="grid-container">
+        <div class="dropdown-container">
+            <label for="Level1DropDown">Business Capability Lv 1:</label>
+            <select id="Level1DropDown" asp-for="SelectedLevel1" multiple onchange="loadLevel2Dropdown()">
+                @foreach (var item in Model.Level1Options)
+                {
+                    <option value="@item.Value">@item.Text</option>
+                }
+            </select>
+        </div>
+
+        <div class="dropdown-container">
+            <label for="Level2DropDown">Business Capability Lv 2:</label>
+            <select id="Level2DropDown" asp-for="SelectedLevel2" multiple onchange="loadLevel3Dropdown()">
+            </select>
+        </div>
+
+        <div class="dropdown-container">
+            <label for="Level3DropDown">Business Capability Lv 3:</label>
+            <select id="Level3DropDown" asp-for="SelectedLevel3" multiple>
+            </select>
+        </div>
+    </div>
+
+    <div class="button-container">
+        <button type="submit">Show Results</button>
+    </div>
+</form>
+
+
+<div>
+    <h4>
+        Business Capabilities Lv 1: &nbsp
+        @if (Model.SelectedLevel1 != null && Model.SelectedLevel1.Any())
+        {
+            @string.Join(", ", Model.SelectedLevel1)
+        }
+        else
+        {
+            <text>none</text>
+        }
+    </h4>
+</div>
+
+
+
+
+<div>
+    <h4>
+        Business Capabilities Lv 2: &nbsp  
+        @if (Model.SelectedLevel2 != null && Model.SelectedLevel2.Any())
+        {
+            @string.Join(", ", Model.SelectedLevel2)
+        }
+        else
+        {
+            <text>none</text>
+        }
+    </h4>
+</div>
+
+
+<div>
+    <h4>
+        Business Capabilities Lv 3: &nbsp
+        @if (Model.SelectedLevel3 != null && Model.SelectedLevel3.Any())
+        {
+            @string.Join(", ", Model.SelectedLevel3)
+        }
+        else
+        {
+            <text>none</text>
+        }
+    </h4>
+</div>
+
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function loadLevel2Dropdown() {
+            var selectedLevel1 = $("#Level1DropDown").val() || [];
+            $.ajax({
+                type: "GET",
+                url: "/Index?handler=LoadLevel2Dropdown",
+                data: { selectedLevel1: selectedLevel1 },
+                traditional: true,
+                success: function (response) {
+                    var options = "";
+                    response.forEach(function (item) {
+                        options += "<option value='" + item.value + "'>" + item.text + "</option>";
+                    });
+                    $("#Level2DropDown").html(options);
+                }
+            });
+        }
+
+        function loadLevel3Dropdown() {
+            var selectedLevel2 = $("#Level2DropDown").val() || [];
+            $.ajax({
+                type: "GET",
+                url: "/Index?handler=LoadLevel3Dropdown",
+                data: { selectedLevel2: selectedLevel2 },
+                traditional: true,
+                success: function (response) {
+                    var options = "";
+                    response.forEach(function (item) {
+                        options += "<option value='" + item.value + "'>" + item.text + "</option>";
+                    });
+                    $("#Level3DropDown").html(options);
+                }
+            });
+        }
+    </script>
+}
+
+@section Styles {
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 20px;
+        }
+
+        .dropdown-container {
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            button[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+    </style>
+}

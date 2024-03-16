@@ -1,0 +1,1157 @@
+[
+  {
+    "Id": 1,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "1. Strategic & Information Mgmt."
+  },
+  {
+    "Id": 2,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "2. Marketing & Sales Mgmt."
+  },
+  {
+    "Id": 3,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "3. Innovation & Lifecycle Mgmt."
+  },
+  {
+    "Id": 4,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "4. Supply Chain Mgmt."
+  },
+  {
+    "Id": 5,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "5. Manufact. & Production Mgmt."
+  },
+  {
+    "Id": 6,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "6. Service Mgmt."
+  },
+  {
+    "Id": 7,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "7. Project Mgmt."
+  },
+  {
+    "Id": 8,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "8. Ecosystem Mgmt."
+  },
+  {
+    "Id": 9,
+    "BusinessCapabilityLevel": 1,
+    "BusinessCapabilittyName": "9. Enterprise Service Mgmt."
+  },
+  {
+    "Id": 10,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "1.1. Strategic Mgmt."
+  },
+  {
+    "Id": 11,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "1.2. Analytics & Insights"
+  },
+  {
+    "Id": 12,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "1.3. Information Mgmt."
+  },
+  {
+    "Id": 13,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "2.1. Marketing"
+  },
+  {
+    "Id": 14,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "2.2. Sales"
+  },
+  {
+    "Id": 15,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "2.3. Online Sales"
+  },
+  {
+    "Id": 16,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "2.4. Order Handling"
+  },
+  {
+    "Id": 17,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "2.5. Public Affairs"
+  },
+  {
+    "Id": 18,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "3.1. Research & Development"
+  },
+  {
+    "Id": 19,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "3.2. Software & Hardware Engineering"
+  },
+  {
+    "Id": 20,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "3.3. Offering Administration & Delivery Mgmt."
+  },
+  {
+    "Id": 21,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "3.4. Offering Lifecycle Mgmt."
+  },
+  {
+    "Id": 22,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "3.5. Assets & Lifecycle Mgmt."
+  },
+  {
+    "Id": 23,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "4.1. Supply Chain Planning"
+  },
+  {
+    "Id": 24,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "4.2. Sourcing & Procurement"
+  },
+  {
+    "Id": 25,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "4.3. Supply Chain Execution"
+  },
+  {
+    "Id": 26,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "4.4. Supplier Collaboration"
+  },
+  {
+    "Id": 27,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "5.1. Production Planning"
+  },
+  {
+    "Id": 28,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "5.2. Production Execution"
+  },
+  {
+    "Id": 29,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "5.3. Plant Mgmt."
+  },
+  {
+    "Id": 30,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "5.4. Intra Logistics"
+  },
+  {
+    "Id": 31,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "6.1. Service Planning"
+  },
+  {
+    "Id": 32,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "6.2. Service Execution"
+  },
+  {
+    "Id": 33,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "6.3. Service Handling"
+  },
+  {
+    "Id": 34,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "7.1. Opening & Clarification"
+  },
+  {
+    "Id": 35,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "7.2. Detailed Planning"
+  },
+  {
+    "Id": 36,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "7.3. Project Execution"
+  },
+  {
+    "Id": 37,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "7.4. Project Closure"
+  },
+  {
+    "Id": 38,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "8.1. Ecosystem Innovation Mgmt."
+  },
+  {
+    "Id": 39,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "8.2. Ecosystem Partner Mgmt."
+  },
+  {
+    "Id": 40,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "8.3. Ecosystem Platform Mgmt."
+  },
+  {
+    "Id": 41,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.1. IT Mgmt."
+  },
+  {
+    "Id": 42,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.2. Environmental Health & Safety"
+  },
+  {
+    "Id": 43,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.3. Risk Mgmt."
+  },
+  {
+    "Id": 44,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.4. Human Resources Mgmt."
+  },
+  {
+    "Id": 45,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.5. Quality Mgmt."
+  },
+  {
+    "Id": 46,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.6. Crisis Mgmt."
+  },
+  {
+    "Id": 47,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.7. Collaboration & Communication Mgmt."
+  },
+  {
+    "Id": 48,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.8. Facility Mgmt."
+  },
+  {
+    "Id": 49,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.9. Finance & Accounting"
+  },
+  {
+    "Id": 50,
+    "BusinessCapabilityLevel": 2,
+    "BusinessCapabilittyName": "9.10. Crossfunctions"
+  },
+  {
+    "Id": 51,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.1.1. Strategic Analysis & Assessment"
+  },
+  {
+    "Id": 52,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.1.2. Strategy Planning & Formulation"
+  },
+  {
+    "Id": 53,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.2.1. Marketing & Sales Analytics"
+  },
+  {
+    "Id": 54,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.2.2. Innovation & Lifecycle Mgmt. Analytics"
+  },
+  {
+    "Id": 55,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.2.3. Supply Chain Analytics"
+  },
+  {
+    "Id": 56,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.2.4. Manufacturing Analytics"
+  },
+  {
+    "Id": 57,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.2.5. Enterprise Services Analytics"
+  },
+  {
+    "Id": 58,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.3.1. Information Strategy & Governance"
+  },
+  {
+    "Id": 59,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.3.2. Information Architecture"
+  },
+  {
+    "Id": 60,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.3.3. Master Data Mgmt."
+  },
+  {
+    "Id": 61,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.3.4. Data Quality Mgmt."
+  },
+  {
+    "Id": 62,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.3.5. Information Security"
+  },
+  {
+    "Id": 63,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "1.3.6. Data Integration & Migration"
+  },
+  {
+    "Id": 64,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.1. Market Sizing and Segmentation"
+  },
+  {
+    "Id": 65,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.10. Marketing and Sales Content"
+  },
+  {
+    "Id": 66,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.2. Marketing Strategy"
+  },
+  {
+    "Id": 67,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.3. Buyer & Customer Journey Mapping"
+  },
+  {
+    "Id": 68,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.4. Corporate Messaging and Content"
+  },
+  {
+    "Id": 69,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.5. Marketing Enablement"
+  },
+  {
+    "Id": 70,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.6. Channel Demand Marketing"
+  },
+  {
+    "Id": 71,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.7. Campaign Planning"
+  },
+  {
+    "Id": 72,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.8. Customer Lifecycle Marketing"
+  },
+  {
+    "Id": 73,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.1.9. Measuring Marketing Impact"
+  },
+  {
+    "Id": 74,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.1. Sales Planning & Forecasting"
+  },
+  {
+    "Id": 75,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.10. Incentive Mgmt. Siemens"
+  },
+  {
+    "Id": 76,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.2. Offer & Opportunity Mgmt."
+  },
+  {
+    "Id": 77,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.3. (Dynamic) Pricing Mgmt."
+  },
+  {
+    "Id": 78,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.4. Configuration"
+  },
+  {
+    "Id": 79,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.5. Territory Planning & Mgmt."
+  },
+  {
+    "Id": 80,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.6. Sales Engagement \/ Customer Interaction"
+  },
+  {
+    "Id": 81,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.7. Customer Success Mgmt."
+  },
+  {
+    "Id": 82,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.8. Sales Enablement Automation"
+  },
+  {
+    "Id": 83,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.2.9. Account Mgmt."
+  },
+  {
+    "Id": 84,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.3.1. Experience Planning"
+  },
+  {
+    "Id": 85,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.3.2. Personalization"
+  },
+  {
+    "Id": 86,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.3.3. Online Commerce"
+  },
+  {
+    "Id": 87,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.3.4. Digital Marketplace"
+  },
+  {
+    "Id": 88,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.3.5. Partner Mgmt."
+  },
+  {
+    "Id": 89,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.4.1. Invoice Mgmt."
+  },
+  {
+    "Id": 90,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.4.2. Order Mgmt."
+  },
+  {
+    "Id": 91,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.4.3. Contract Mgmt."
+  },
+  {
+    "Id": 92,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "2.5.1. Public Affairs Mgmt."
+  },
+  {
+    "Id": 93,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.1.1. R&D Portfolio Mgmt."
+  },
+  {
+    "Id": 94,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.1.2. Research and Development"
+  },
+  {
+    "Id": 95,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.2.1. System & Solution Engineering"
+  },
+  {
+    "Id": 96,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.2.2. Software Engineering"
+  },
+  {
+    "Id": 97,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.3.1. Submission Mgmt."
+  },
+  {
+    "Id": 98,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.3.2. Intellectual Property Mgmt."
+  },
+  {
+    "Id": 99,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.3.3. Compliance & Regulations"
+  },
+  {
+    "Id": 100,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.4.1. Offering Cost Mgmt."
+  },
+  {
+    "Id": 101,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.4.2. Offering Information Mgmt."
+  },
+  {
+    "Id": 102,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.4.3. Offering Development"
+  },
+  {
+    "Id": 103,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.4.4. Offering Configuration Mgmt."
+  },
+  {
+    "Id": 104,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.4.5. Offering Portfolio Mgmt."
+  },
+  {
+    "Id": 105,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.5.1. Predictive Product Maintenance"
+  },
+  {
+    "Id": 106,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "3.5.2. Assets Mgmt."
+  },
+  {
+    "Id": 107,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.1.1. Demand Mgmt. Planning"
+  },
+  {
+    "Id": 108,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.1.2. Inventory Planning & Forecasting"
+  },
+  {
+    "Id": 109,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.1.3. Supply Network Planning"
+  },
+  {
+    "Id": 110,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.1.4. Integrated Business Planning"
+  },
+  {
+    "Id": 111,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.2.1. Procurement Mgmt."
+  },
+  {
+    "Id": 112,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.2.2. MRO Procurement"
+  },
+  {
+    "Id": 113,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.2.3. Strategic Sourcing"
+  },
+  {
+    "Id": 114,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.2.4. Global Trade Mgmt."
+  },
+  {
+    "Id": 115,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.3.1. Supply Chain Control Tower"
+  },
+  {
+    "Id": 116,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.3.2. Order Fulfillment"
+  },
+  {
+    "Id": 117,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.3.3. Inventory and Warehouse Mgmt."
+  },
+  {
+    "Id": 118,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.3.4. Transportation Mgmt."
+  },
+  {
+    "Id": 119,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.3.5. Distribution Resource Mgmt."
+  },
+  {
+    "Id": 120,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.3.6. Inbound & Outbound Tracking"
+  },
+  {
+    "Id": 121,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.4.1. 3LP\/4LP Collaboration"
+  },
+  {
+    "Id": 122,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.4.2. eProcurement \/ Supplier Catalogue"
+  },
+  {
+    "Id": 123,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "4.4.3. Manufacturing Supplier Mgmt."
+  },
+  {
+    "Id": 124,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.1.1. Material Requirement Planning"
+  },
+  {
+    "Id": 125,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.1.2. Detailed Scheduling"
+  },
+  {
+    "Id": 126,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.1.3. Production Order Mgmt. & Release & Confirmation"
+  },
+  {
+    "Id": 127,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.1. Work Order Mgmt. & Order Processing"
+  },
+  {
+    "Id": 128,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.2. Production Order Preparation"
+  },
+  {
+    "Id": 129,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.3. Manufacturing Resource Mgmt."
+  },
+  {
+    "Id": 130,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.4. Worker Guidance & Electronic Work Instructions"
+  },
+  {
+    "Id": 131,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.5. Visual Inspection & Repair"
+  },
+  {
+    "Id": 132,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.6. Product Labeling"
+  },
+  {
+    "Id": 133,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.7. Shop Floor Mgmt. (Product Identification)"
+  },
+  {
+    "Id": 134,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.8. Traceability"
+  },
+  {
+    "Id": 135,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.2.9. Setup Mgmt."
+  },
+  {
+    "Id": 136,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.1. Maintenance Spare Part Mgmt."
+  },
+  {
+    "Id": 137,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.10. Mobile Maintenance"
+  },
+  {
+    "Id": 138,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.11. Predictive Maintenance"
+  },
+  {
+    "Id": 139,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.2. Energy Mgmt."
+  },
+  {
+    "Id": 140,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.3. Plant Maintenance Incident Mgmt."
+  },
+  {
+    "Id": 141,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.4. Connected Asset Mgmt."
+  },
+  {
+    "Id": 142,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.5. Maintenance Planning"
+  },
+  {
+    "Id": 143,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.6. Plant Reporting"
+  },
+  {
+    "Id": 144,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.7. Equipment Mgmt."
+  },
+  {
+    "Id": 145,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.3.8. Plant Structure Mgmt."
+  },
+  {
+    "Id": 146,
+    "BusinessCapabilityLevel": 4,
+    "BusinessCapabilittyName": "5.3.9. Asset Mgmt. (mistake by design)"
+  },
+  {
+    "Id": 147,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.4.1. Track & Trace"
+  },
+  {
+    "Id": 148,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.4.2. Production Stock Mgmt."
+  },
+  {
+    "Id": 149,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.4.3. Material Replenishment"
+  },
+  {
+    "Id": 150,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "5.4.4. Inhouse Transport"
+  },
+  {
+    "Id": 151,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.1.1. Maintenance Planning"
+  },
+  {
+    "Id": 152,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.1.2. Workorder Mgmt."
+  },
+  {
+    "Id": 153,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.2.1. Warranty Service Mgmt."
+  },
+  {
+    "Id": 154,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.2.2. Spare Part Service Mgmt."
+  },
+  {
+    "Id": 155,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.2.3. Returns Mgmt."
+  },
+  {
+    "Id": 156,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.2.4. Repair Service Mgmt."
+  },
+  {
+    "Id": 157,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.2.5. Field Service Mgmt."
+  },
+  {
+    "Id": 158,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.3.1. Service Request & Ticket Mgmt."
+  },
+  {
+    "Id": 159,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.3.2. Call Mgmt."
+  },
+  {
+    "Id": 160,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "6.3.3. HQ – Region Interfaces\nOffer and Order Process"
+  },
+  {
+    "Id": 161,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.1.1. Project initiation"
+  },
+  {
+    "Id": 162,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.2.1. Project Planning"
+  },
+  {
+    "Id": 163,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.2.2. Requirement Mgmt. & Deliverables"
+  },
+  {
+    "Id": 164,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.2.3. Time Mgmt."
+  },
+  {
+    "Id": 165,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.2.4. Cost Mgmt."
+  },
+  {
+    "Id": 166,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.2.5. Ressource Mgmt."
+  },
+  {
+    "Id": 167,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.3.1. Project Status"
+  },
+  {
+    "Id": 168,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.3.2. Project Forecast"
+  },
+  {
+    "Id": 169,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.3.3. Project Documentation"
+  },
+  {
+    "Id": 170,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.4.1. Handover to Service"
+  },
+  {
+    "Id": 171,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "7.4.2. Final Reporting"
+  },
+  {
+    "Id": 172,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "8.1.1. Business Model Innovation"
+  },
+  {
+    "Id": 173,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "8.1.2. Technology Capability Innovation"
+  },
+  {
+    "Id": 174,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "8.2.1. Relationship and Satisfaction Mgmt."
+  },
+  {
+    "Id": 175,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "8.3.1. Platform Mgmt."
+  },
+  {
+    "Id": 176,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "8.3.2. Partner Collaboration Platform Mgmt."
+  },
+  {
+    "Id": 177,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "8.3.3. Subscription Mgmt."
+  },
+  {
+    "Id": 178,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.1.1. Business & CRM Mgmt."
+  },
+  {
+    "Id": 179,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.1.2. IT Service Strategy"
+  },
+  {
+    "Id": 180,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.1.3. IT Delivery Mgmt."
+  },
+  {
+    "Id": 181,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.1.4. IT Service Design & Assembly"
+  },
+  {
+    "Id": 182,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.1.5. IT Mgmt. & Operations"
+  },
+  {
+    "Id": 183,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.1.6. Enterprise Architecture Mgmt."
+  },
+  {
+    "Id": 184,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.2.1. Environmental Protection Mgmt."
+  },
+  {
+    "Id": 185,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.2.2. Health & Medical Services Mgmt."
+  },
+  {
+    "Id": 186,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.2.3. Safety Mgmt."
+  },
+  {
+    "Id": 187,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.3.1. Strategic Risk Mgmt."
+  },
+  {
+    "Id": 188,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.3.2. Operational Risk Mgmt."
+  },
+  {
+    "Id": 189,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.3.3. Financial Risk Mgmt."
+  },
+  {
+    "Id": 190,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.3.4. Hazard Risk Mgmt."
+  },
+  {
+    "Id": 191,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.1. Administration and Service Mgmt."
+  },
+  {
+    "Id": 192,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.10. Leadership Development"
+  },
+  {
+    "Id": 193,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.11. Competency Mgmt."
+  },
+  {
+    "Id": 194,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.2. HR Merger & Acquisition Mgmt."
+  },
+  {
+    "Id": 195,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.3. Employer Branding Mgmt."
+  },
+  {
+    "Id": 196,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.4. People Demand Mgmt."
+  },
+  {
+    "Id": 197,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.5. Learning & Education Mgmt."
+  },
+  {
+    "Id": 198,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.6. Compensation & Benefits Mgmt."
+  },
+  {
+    "Id": 199,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.7. Labor and Industrial Relations Mgmt."
+  },
+  {
+    "Id": 200,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.8. Talent Acquisition"
+  },
+  {
+    "Id": 201,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.4.9. Talent Development"
+  },
+  {
+    "Id": 202,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.5.1. Preventive Quality Mgmt."
+  },
+  {
+    "Id": 203,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.5.2. Corrective Quality Mgmt."
+  },
+  {
+    "Id": 204,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.5.3. Quality Policy Mgmt."
+  },
+  {
+    "Id": 205,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.5.4. Continuous Improvement"
+  },
+  {
+    "Id": 206,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.6.1. Business Continuity and Harm Prevention Mgmt."
+  },
+  {
+    "Id": 207,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.6.2. Crisis Health and Safety Mgmt."
+  },
+  {
+    "Id": 208,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.7.1. Internal Comm. & Coll. Mgmt."
+  },
+  {
+    "Id": 209,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.7.2. External Comm. & Coll. Mgmt."
+  },
+  {
+    "Id": 210,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.7.3. Knowledge Mgmt."
+  },
+  {
+    "Id": 211,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.7.4. Change Mgmt."
+  },
+  {
+    "Id": 212,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.7.5. Content & Document Mgmt."
+  },
+  {
+    "Id": 213,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.8.1. Facility Operations Mgmt."
+  },
+  {
+    "Id": 214,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.8.2. Facility Contractor Mgmt."
+  },
+  {
+    "Id": 215,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.1. Guarantee Mgmt."
+  },
+  {
+    "Id": 216,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.10. Pensions Mgmt."
+  },
+  {
+    "Id": 217,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.11. Asset Mgmt."
+  },
+  {
+    "Id": 218,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.12. Bank Statements Mgmt."
+  },
+  {
+    "Id": 219,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.13. Closing"
+  },
+  {
+    "Id": 220,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.14. Tax Mgmt."
+  },
+  {
+    "Id": 221,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.15. Accounts Payable Mgmt."
+  },
+  {
+    "Id": 222,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.16. General and Sub-Ledger Mgmt."
+  },
+  {
+    "Id": 223,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.2. Sureties & Letter of Credit Mgmt."
+  },
+  {
+    "Id": 224,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.3. Insurance Coverage Mgmt."
+  },
+  {
+    "Id": 225,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.4. Bank Partner Mgmt."
+  },
+  {
+    "Id": 226,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.5. Payments Mgmt."
+  },
+  {
+    "Id": 227,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.6. Cash & Liquidity Mgmt."
+  },
+  {
+    "Id": 228,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.7. Funding Mgmt."
+  },
+  {
+    "Id": 229,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.8. Financial Risk Transaction Mgmt."
+  },
+  {
+    "Id": 230,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.9.9. Accounts Receivable Mgmt."
+  },
+  {
+    "Id": 231,
+    "BusinessCapabilityLevel": 3,
+    "BusinessCapabilittyName": "9.10.1. Others"
+  }
+]
