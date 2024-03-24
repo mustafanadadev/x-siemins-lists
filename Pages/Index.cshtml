@@ -1,126 +1,138 @@
 ﻿@page
-@model x_siemins_dropdown.Pages.IndexModel
+@model x_siemens_dropdown.Pages.IndexModel
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Siemins Lists Task</h1>
+<h1>Siemens Lists Task</h1>
 
-<form method="post">
-    <div class="grid-container">
-        <div class="dropdown-container">
-            <label for="Level1DropDown">Business Capability Lv 1:</label>
-            <select id="Level1DropDown" asp-for="SelectedLevel1" multiple onchange="loadLevel2Dropdown()">
-                @foreach (var item in Model.Level1Options)
-                {
-                    <option value="@item.Value">@item.Text</option>
-                }
-            </select>
-        </div>
-
-        <div class="dropdown-container">
-            <label for="Level2DropDown">Business Capability Lv 2:</label>
-            <select id="Level2DropDown" asp-for="SelectedLevel2" multiple onchange="loadLevel3Dropdown()">
-            </select>
-        </div>
-
-        <div class="dropdown-container">
-            <label for="Level3DropDown">Business Capability Lv 3:</label>
-            <select id="Level3DropDown" asp-for="SelectedLevel3" multiple>
-            </select>
-        </div>
+<div class="grid-container">
+    <div class="dropdown-container">
+        <label for="Level1DropDown">Business Capability Lv 1:</label>
+        <select id="Level1DropDown" multiple>
+            @foreach (var item in Model.Level1Options)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
     </div>
 
-    <div class="button-container">
-        <button type="submit">Show Results</button>
+    <div class="dropdown-container">
+        <label for="Level2DropDown">Business Capability Lv 2:</label>
+        <select id="Level2DropDown" multiple>
+        </select>
     </div>
-</form>
 
-
-<div>
-    <h4>
-        Business Capabilities Lv 1: &nbsp
-        @if (Model.SelectedLevel1 != null && Model.SelectedLevel1.Any())
-        {
-            @string.Join(", ", Model.SelectedLevel1)
-        }
-        else
-        {
-            <text>none</text>
-        }
-    </h4>
+    <div class="dropdown-container">
+        <label for="Level3DropDown">Business Capability Lv 3:</label>
+        <select id="Level3DropDown" multiple>
+        </select>
+    </div>
 </div>
 
-
-
-
-<div>
-    <h4>
-        Business Capabilities Lv 2: &nbsp  
-        @if (Model.SelectedLevel2 != null && Model.SelectedLevel2.Any())
-        {
-            @string.Join(", ", Model.SelectedLevel2)
-        }
-        else
-        {
-            <text>none</text>
-        }
-    </h4>
+<div class="button-container">
+    <button id="showResultsButton">Show Results</button>
 </div>
 
+<div id="selectedResults">
+    <div>
+        <h5>
+            Business Capabilities Lv 1: &nbsp
 
-<div>
-    <h4>
-        Business Capabilities Lv 3: &nbsp
-        @if (Model.SelectedLevel3 != null && Model.SelectedLevel3.Any())
-        {
-            @string.Join(", ", Model.SelectedLevel3)
-        }
-        else
-        {
-            <text>none</text>
-        }
-    </h4>
+        </h5>
+        <p id="SelectedValueLv1">
+            none
+        </p>
+    </div>
+
+    <div>
+        <h5>
+            Business Capabilities Lv 2:
+
+        </h5>
+        <p id="SelectedValueLv2">
+            none
+
+        </p>
+    </div>
+
+    <div>
+        <h5>
+            Business Capabilities Lv 3:
+        </h5>
+        <p id="SelectedValueLv3">
+            none
+        </p>
+    </div>
 </div>
-
 
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        function loadLevel2Dropdown() {
-            var selectedLevel1 = $("#Level1DropDown").val() || [];
-            $.ajax({
-                type: "GET",
-                url: "/Index?handler=LoadLevel2Dropdown",
-                data: { selectedLevel1: selectedLevel1 },
-                traditional: true,
-                success: function (response) {
-                    var options = "";
-                    response.forEach(function (item) {
-                        options += "<option value='" + item.value + "'>" + item.text + "</option>";
-                    });
-                    $("#Level2DropDown").html(options);
-                }
+        $(document).ready(function () {
+            // Load Level 2 dropdown based on selected Level 1
+            $("#Level1DropDown").change(function () {
+                var selectedLevel1 = $(this).val() || [];
+                $.ajax({
+                    type: "GET",
+                    url: "/Index?handler=LoadLevel2Dropdown",
+                    data: { selectedLevel1: selectedLevel1 },
+                    traditional: true,
+                    success: function (response) {
+                        var options = "";
+                        response.forEach(function (item) {
+                            options += "<option value='" + item.value + "'>" + item.text + "</option>";
+                        });
+                        $("#Level2DropDown").html(options);
+                    }
+                });
             });
-        }
 
-        function loadLevel3Dropdown() {
-            var selectedLevel2 = $("#Level2DropDown").val() || [];
-            $.ajax({
-                type: "GET",
-                url: "/Index?handler=LoadLevel3Dropdown",
-                data: { selectedLevel2: selectedLevel2 },
-                traditional: true,
-                success: function (response) {
-                    var options = "";
-                    response.forEach(function (item) {
-                        options += "<option value='" + item.value + "'>" + item.text + "</option>";
-                    });
-                    $("#Level3DropDown").html(options);
-                }
+            // Load Level 3 dropdown based on selected Level 2
+            $("#Level2DropDown").change(function () {
+                var selectedLevel2 = $(this).val() || [];
+                $.ajax({
+                    type: "GET",
+                    url: "/Index?handler=LoadLevel3Dropdown",
+                    data: { selectedLevel2: selectedLevel2 },
+                    traditional: true,
+                    success: function (response) {
+                        var options = "";
+                        response.forEach(function (item) {
+                            options += "<option value='" + item.value + "'>" + item.text + "</option>";
+                        });
+                        $("#Level3DropDown").html(options);
+                    }
+                });
             });
-        }
+
+            // Show Results button click event
+            $("#showResultsButton").click(function () {
+                var selectedLevel1 = $("#Level1DropDown").val() || [];
+                var selectedLevel2 = $("#Level2DropDown").val() || [];
+                var selectedLevel3 = $("#Level3DropDown").val() || [];
+                console.log(selectedLevel1);
+                console.log(selectedLevel2);
+                console.log(selectedLevel3);
+                $.ajax({
+                    type: "GET",
+                    url: "/Index?handler=ShowSelected",
+                    data: {
+                        selectedLevel1: selectedLevel1,
+                        selectedLevel2: selectedLevel2,
+                        selectedLevel3: selectedLevel3
+                    },
+                    traditional: true,
+                    success: function (response) {
+                        $("#SelectedValueLv1").text(response.selectedLevel1 || "none");
+                        $("#SelectedValueLv2").text(response.selectedLevel2 || "none");
+                        $("#SelectedValueLv3").text(response.selectedLevel3 || "none");
+
+                    }
+                });
+            });
+        });
     </script>
 }
 
